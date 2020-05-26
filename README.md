@@ -8,6 +8,6 @@ The original system utilized ZigBee communication protocols (using XBee Series 2
 
 ## Flow of Commands
 
-![Communication Flow](CommsFlowChart.png)
+![Communication Flow](assets/CommsFlowChart.png)
 
 

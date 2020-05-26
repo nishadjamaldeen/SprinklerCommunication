@@ -1,12 +1,12 @@
 #include <SoftwareSerial.h>
 
-#include "FirmwareCMD.h"
-#include "valveCommand.h"
+#include "tools/FirmwareCMD.h"
+#include "tools/valveCommand.h"
 #include "Arduino.h"
 #include "stdio.h"
 
-#include "cmdMessenger.h"
-#include "enum.h"
+#include "tools/cmdMessenger.h"
+#include "tools/enum.h"
 // Build cmdMessenger object
 CmdMessenger cmdMessenger = CmdMessenger(Serial);
 String outputStr;
